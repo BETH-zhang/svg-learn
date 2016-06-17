@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+	<h1>ViewBox 演示</h1>
+	<form action="" id="form">
+		<fieldset>
+			<legend>viewBox</legend>
+			<label for="">x:<input type="number" id="vx" value="0"></label>
+			<label for="">y:<input type="number" id="vy" value="0"></label>
+			<label for="">width:<input type="number" id="vw" value="300"></label>
+			<label for="">height:<input type="number" id="vh" value="200"></label>
+		</fieldset>
+		<fieldset>
+			<legend>preserveAspectRatio</legend>
+			<label for="">align:
+				<select name="" id="align">
+					<option value="none">none</option>
+					<option value="xMinYMin">xMinYMin</option>
+					<option value="xMidYMin">xMidYMin</option>
+					<option value="xMaxYMin">xMaxYMin</option>
+					<option value="xMinYMid">xMinYMid</option>
+					<option value="xMidYMid">xMidYMid</option>
+					<option value="xMaxYMid">xMaxYMid</option>
+					<option value="xMinYMax">xMinYMax</option>
+					<option value="xMidYMax">xMidYMax</option>
+					<option value="xMaxYMax">xMaxYMax</option>
+				</select></label>
+			<label for="">meetOrSlice:
+				<select name="" id="meetOrSlice">
+					<option value="meet">meet</option>
+					<option value="slice">slice</option>
+				</select>
+			</label>
+		</fieldset>
+	</form>
+	<p>
+		<svg id="svg" xmlns="http://www.w3.org/2000/svg">
+			<circle cx="100" cy="100" r="90" fill="#39F"></circle>
+			<circle cx="70" cy="80" r="20" fill="#fff"></circle>
+			<circle cx="130" cy="80" r="20" fill="#fff"></circle>
+			<circle cx="65" cy="75" r="10" fill="#000"></circle>
+			<circle cx="125" cy="75" r="10" fill="#000"></circle>
+			<path d="M 50 140 A 60 60 0 0 0 150 140" stroke="white" stroke-width="3" fill="none"></path>
+			<rect id="viewBoxIndicator" stroke="red" stroke-width="3.5" fill="none"></rect>
+		</svg>
+	</p>
+	
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
