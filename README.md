@@ -116,6 +116,21 @@ HSL应用实例：http://paletton.com
         gradientUnits:objectBoundingBox userSpaceOnUse
 
 ###3.3.使用笔刷
+    绘制纹理
+    <pattern>标签
+    patternUnits和patternContentUnits
+
+###4.1.path命令汇总
+    M/m(x,y)+  移动当前位置
+    L/l(x,y)+  从当前位置绘制线段到指定位置
+    H/h(x)+  从当前位置绘制水平线到达指定的x坐标
+    V/v(x)+  从当前位置绘制竖直水平线到达指定的y坐标
+    Z/z  闭合当前路径
+    C/c(x1,y1,x2,y2,x,y)+  从当前位置绘制三次贝塞尔曲线到指定位置
+    S/s(x2,y2,x,y)+  从当前位置光滑绘制三次贝塞尔曲线到指定位置
+    Q/q(x1,y1,x,y)+  从桑钱位置绘制二次贝塞尔曲线到指定位置
+    T/t(x,y)+  从当前位置光滑绘制二次贝塞尔曲线到指定位置
+    A/a(rx,ry,xr,laf,sf,x,y)  从当前位置绘制弧线到指定位置
 
 
 
