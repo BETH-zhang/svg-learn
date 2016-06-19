@@ -89,8 +89,31 @@ transform属性
 viewBox加上1像素的偏移，坐标就锐利一点
 
 ###3.1.认识RGB和HSL
+    都是CSS3支持的颜色表示方法
+    互相转换页面的原理
+
+    RGB
+        红色，绿色，蓝色
+        表示：rgb(r,g,b)
+        范围［0，255］
+
+    HSL
+        三个分量分别表示颜色，饱和度和亮度
+        格式：hsl(h, s%, l%)
+        范围：h［0，359］s,l[0,100]
+
+    透明度
+        rgba(r,g,b,a) hsla(h,s%,l%,a)
+        opacity
+
+HSL应用实例：http://paletton.com
 
 ###3.2.线性渐变和径向渐变
+    线性渐变
+        <linearGradient><stop>
+        定义方向
+        关键点位置及颜色
+        gradientUnits:objectBoundingBox userSpaceOnUse
 
 ###3.3.使用笔刷
 
