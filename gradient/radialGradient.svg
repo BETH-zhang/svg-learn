@@ -1,10 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+	width="400" height="400"
+    viewBox="0 0 400 400"
+    preserveAspectRatio="xMinYMin slice"
+    style="position: absolute;
+	border: 1px solid #000;
+	left: 50%;
+	top: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	background: #fff;">
     <defs>
-        <radialGradient id="grad2" cx="0.5" cy="0.5" r="0.5">
+        <radialGradient id="grad1" cx="200" cy="50" r="50" gradientUnits="userSpaceOnUse">
             <stop offset="0" stop-color="rgb(20,151,252)"></stop>
             <stop offset="0.5" stop-color="rgb(164,105,190)"></stop>
             <stop offset="1" stop-color="rgb(255,140,0)"></stop>
         </radialGradient>
     </defs>
-    <rect x="0" y="0" width="200" height="150" fill="url(#grad2)"></rect>
+    <defs>
+        <radialGradient id="grad2" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="rgb(20,151,252)"></stop>
+            <stop offset="0.5" stop-color="rgb(164,105,190)"></stop>
+            <stop offset="1" stop-color="rgb(255,140,0)"></stop>
+        </radialGradient>
+    </defs>
+    <rect x="0" y="0" width="200" height="100" fill="url(#grad1)"></rect>
+    <rect x="200" y="100" fill="url(#grad2)" width="200" height="100"></rect>
 </svg>

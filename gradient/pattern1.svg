@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300">
+	<defs>
+		<pattern id="p1" x="0" y="0" width="0.25" height="0.25" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox">
+			<circle cx="0.01" cy="0.01" r="0.12" fill="red"></circle>
+			<!-- <polygon points="30 10 60 50 0 50" fill="green"></polygon> -->
+		</pattern>
+	</defs>
+	<rect x="0" y="0" width="600" height="300" fill="url(#p1)" stroke="blue"></rect>
+</svg>
+
+
