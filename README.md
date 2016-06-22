@@ -150,6 +150,7 @@ http://slides.com/
     sf-sweep-flag 是否选择逆时针方向的那段弧
     x,y-弧的终点位置
 
-
+laf 0 小角 1 大角
+sf 0 逆时针 1 顺时针
 
 
