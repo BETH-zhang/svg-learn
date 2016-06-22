@@ -132,6 +132,24 @@ HSL应用实例：http://paletton.com
     T/t(x,y)+  从当前位置光滑绘制二次贝塞尔曲线到指定位置
     A/a(rx,ry,xr,laf,sf,x,y)  从当前位置绘制弧线到指定位置
 
+http://slides.com/
+
+    命令基本规律
+    区别大小写：大写表示坐标参数为绝对位置，小写则为相对位置
+    最后的参数表示最终要达到的位置
+    上一个命令结束的位置就是下一个命令开始的位置
+    命令可以重复参数表示统一命令
+
+###4.3.弧线命令
+    A(rx,ry,xr,laf,sf,x,y) 绘制弧线
+    最复杂的命令
+    rx-radius-x 弧线所在椭圆的x半轴长
+    ry-radius-y 弧线所在椭圆的y半轴长
+    xr-xAxis-rotation 弧线所在椭圆的长轴角度
+    laf-large-arc-flag 是否选择弧长较长的那一段弧
+    sf-sweep-flag 是否选择逆时针方向的那段弧
+    x,y-弧的终点位置
+
 
 
 

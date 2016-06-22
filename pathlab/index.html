@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<style type="text/css">
+	input{
+		display: block;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		width:100%;
+		height: 40px;
+		border: 1px solid #000;
+	}
+</style>
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" id="svg">
+        <path id="path" d="M250 150 L150 350 L350 350 Z" style="fill:#ccc;stroke:red;stroke-width:2"/>
+    </svg>
+    <input type="text" id="tc" value="M250 150 L150 350 L350 350 Z"/>
+
+    <script type="text/javascript">
+    tc.oninput = function(){
+		path.setAttribute('d', tc.value);
+	}
+    </script>
+</body>
+
+</html>
