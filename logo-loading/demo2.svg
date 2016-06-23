@@ -1,0 +1,9 @@
+<svg  class="gbtags" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+    <!--
+		stroke-dasharray定义了生成线段长度，及其线段和线段之间的缝隙，这里包含两个参数
+		stroke-dashoffset定义了从那个位置开始渲染生成线段
+	-->
+    <path fill="none" stroke="#aaa" stroke-width="2" d="M62.9,14.9c-25,-10 -56,5 -60,24 -4,27 21,35 39,37 42,6 72,-53 116,-58"
+    	stroke-dasharray="100 10"
+    	stroke-dashoffset="0"></path>
+</svg>

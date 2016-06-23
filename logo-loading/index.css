@@ -1,0 +1,43 @@
+div{
+	font-size: 12px;
+	padding: 10px 0;
+}
+
+input{
+	width: 280px;
+}
+
+/* 添加动画到path元素 */
+
+.path{
+  stroke-dasharray: 265.07;
+  stroke-dashoffset: 265.07;
+  animation: dash 3s linear infinite;  
+  /* 支持chrome */
+  -webkit-animation: dash 3s linear infinite;
+}
+
+@keyframes dash{
+  
+  from{
+    stroke-dashoffset: 265.07; /* 这里是svg图形中素描线长度，可以使用js获取 */
+  }
+  
+  to{
+    stroke-dashoffset: 0;
+  }
+  
+}
+
+/* 支持chrome浏览器 */
+@-webkit-keyframes dash{
+  
+  from{
+    stroke-dashoffset: 265.07; /* 这里是svg图形中素描线长度，可以使用js获取 */
+  }
+  
+  to{
+    stroke-dashoffset: 0;
+  }
+  
+}
