@@ -128,7 +128,7 @@ HSL应用实例：http://paletton.com
     Z/z  闭合当前路径
     C/c(x1,y1,x2,y2,x,y)+  从当前位置绘制三次贝塞尔曲线到指定位置
     S/s(x2,y2,x,y)+  从当前位置光滑绘制三次贝塞尔曲线到指定位置
-    Q/q(x1,y1,x,y)+  从桑钱位置绘制二次贝塞尔曲线到指定位置
+    Q/q(x1,y1,x,y)+  从当前位置绘制二次贝塞尔曲线到指定位置
     T/t(x,y)+  从当前位置光滑绘制二次贝塞尔曲线到指定位置
     A/a(rx,ry,xr,laf,sf,x,y)  从当前位置绘制弧线到指定位置
 
@@ -152,5 +152,13 @@ http://slides.com/
 
 laf 0 小角 1 大角
 sf 0 逆时针 1 顺时针
+
+###4.4.贝塞尔曲线
+
+svg在线工具：
+https://docs.google.com/drawings
+http://editor.method.ac/
+
+资源：https://github.com/FE-Translation
 
 
