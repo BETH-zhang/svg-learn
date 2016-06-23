@@ -8,6 +8,9 @@
 </head>
 <body>
 	<img src="demo1.svg"/>
+<!-- 添加一个按钮 -->
+
+<button onclick="rerun();">运行动画</button>
 
 	<svg  class="gbtags" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
 	    <!--
@@ -15,7 +18,8 @@
 			stroke-dashoffset定义了从那个位置开始渲染生成线段
 		-->
 	    <path 
-	    	class="path" 
+	    	class="path1" 
+	    	id="path"
 	    	fill="none" 
 	    	stroke="#aaa" 
 	    	stroke-width="2" 
